@@ -12,6 +12,22 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      keyframes: {
+        "blob-rotate-scale": {
+          "0%": { transform: "rotate(0deg) scale(1, 1)" },
+          "50%": { transform: "rotate(180deg) scale(1, 1.3)" },
+          "100%": { transform: "rotate(360deg) scale(1, 1)" },
+        },
+      },
+      animation: {
+        "blob-rotate-scale": "blob-rotate-scale 20s infinite",
+      },
+
+      height: {
+        "34vmax": "34vmax",
+        // Add other custom heights
+      },
     },
   },
   plugins: [],
