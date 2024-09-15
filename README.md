@@ -1,1 +1,1 @@
-Inspired by [Reference](https://codepen.io/Hyperplexed/pen/KKBjvbG)
+Inspired by [Hyperplexed](https://codepen.io/Hyperplexed/pen/KKBjvbG)
